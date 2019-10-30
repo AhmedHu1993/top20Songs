@@ -28,8 +28,14 @@
 
 ol {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
   height: 1200px;
+}
+
+.song-item {
+  width: 400px;
+  height: 250px;
+  padding: 20px;
 }

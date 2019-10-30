@@ -7,7 +7,7 @@ const SongsItem = ({song}) => {
     const imgUrl = song["im:image"][2].label
         
     return(
-        <div>
+        <div className="song-item">
             <li>{name}</li>
             <img src={imgUrl} alt="track image"></img>
         </div>
