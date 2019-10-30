@@ -20,3 +20,16 @@
 .App-link {
   color: #09d3ac;
 }
+
+.song-list{
+  display: flex;
+  flex-direction: column;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 1200px;
+}

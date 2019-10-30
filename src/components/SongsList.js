@@ -1,5 +1,6 @@
 import React from 'react';
 import SongsItem from './SongsItem'
+import '../App.css';
 
 const SongsList = (props) => {
         const songsNodes = props.songs.map((song, index) => {
@@ -9,11 +10,13 @@ const SongsList = (props) => {
         })
 
         return(
-            <div>
+            <div className='song-list'>
                 <h2>Top 20 Songs in UK </h2>
-                <ol>
-                    {songsNodes}
-                </ol>
+                <div className='songs'>
+                    <ol>
+                        {songsNodes}
+                    </ol>
+                </div>    
             </div>
         )
     

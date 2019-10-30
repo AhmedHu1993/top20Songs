@@ -4,7 +4,9 @@ import SongsContainer from './containers/SongsContainer'
 
 function App() {
   return (
-    <SongsContainer />
+    <div className="App">
+      <SongsContainer />
+    </div>  
   );
 }
 
